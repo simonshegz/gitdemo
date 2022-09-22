@@ -11,12 +11,24 @@
 }
 .form-input input, form button{
     width: 100%;
-    margin-top: 10px;
-    height: 25px;
+    margin-top: 15px;
+    height: 30px;
     border-radius: 10px;
 }
 .form button{
-    height: 30px;
-    background: linear-gradient(to right rgb(194, 129, 129),rgb(87, 85, 85));
+    height: 40px;
+    background: linear-gradient(to right rgb(0, 0, 0.5),rgb(255, 138, 138));
 
+}
+ul{
+    display: flex;
+    margin-top: 10px;
+    gap: 50px;
+
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
 }
